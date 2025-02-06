@@ -1,8 +1,14 @@
+/* style.css */
+/* Remove default margins and hide scrollbars */
 body {
   margin: 0;
   overflow: hidden;
-  background-color: black;
+  background-color: #000; /* Black background to evoke space */
 }
-canvas {
+
+/* Full-screen container for the canvas */
+#container {
+  width: 100%;
+  height: 100vh;
   display: block;
 }
